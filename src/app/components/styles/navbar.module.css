@@ -1,0 +1,23 @@
+@media screen and (min-width: 900px){
+    .outer_div{
+        height: 5rem;
+        background-color: rgb(18, 18, 18);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ulList{
+        display:flex;
+        width:30vw;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .ulList li{
+        color: white;
+        font-size: 13px;
+        font-weight: 410;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 520px){}
+@media screen and (max-width: 520px){}
